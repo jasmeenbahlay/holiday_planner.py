@@ -3,7 +3,7 @@ print("""Welcome to the holiday planner!
       Please see the flights avaliable from the list below: """)
 
 # Print the list of flights available
-flight_list = {'Paris','Rhodes','Cape Verde','Cancun','Hurghada'}
+flight_list = {'Paris','Rhodes','Capeverde','Cancun','Hurghada'}
 print(flight_list)
 
 # Ask user to input the city, number of nights and car rental period
@@ -25,7 +25,7 @@ def plane_cost(city_flight):
     elif city_flight == 'Rhodes':
         return 80
 
-    elif city_flight == 'Cape Verde':
+    elif city_flight == 'Capeverde':
         return 170
 
     elif city_flight == 'Cancun':
