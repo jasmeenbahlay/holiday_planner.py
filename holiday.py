@@ -21,7 +21,8 @@ def hotel_cost(num_nights):
 def plane_cost(city_flight):
     if city_flight == 'Paris':
         return 50
-
+          
+# If user chose Rhodes then the flight will be 50
     elif city_flight == 'Rhodes':
         return 80
 
