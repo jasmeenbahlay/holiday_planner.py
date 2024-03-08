@@ -3,7 +3,7 @@ print("""Welcome to the holiday planner!
       Please see the flights avaliable from the list below: """)
 
 # Print the list of flights available
-flight_list = {'Paris','Rhodes','Capeverde','Cancun','Hurghada'}
+flight_list = {'Paris: 50','Rhodes: 80','Capeverde: 170','Cancun: 200','Hurghada: 150'}
 print(flight_list)
 
 # Ask user to input the city, number of nights and car rental period
